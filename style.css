@@ -1,0 +1,217 @@
+body{
+    background-color: black;
+    color: #fff;
+    font-family: "Poppins";
+}
+
+
+
+#bg{
+    background: url('bg-intro-desktop.png');
+    width: 950px;
+    height: 480px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+}
+
+#semi-bg{
+    width: 950px;
+    height: 480px;
+    background-color: hsl(0, 100%, 74%, 0.7);
+    display: flex;
+    flex-direction: row;
+}
+
+#one{
+    width: 450px;
+    height: 300px;
+    margin-top: 100px;
+    margin-left: 45px;
+}
+
+#one h1{
+    font-size: 38px;
+    line-height: 1.1;
+
+}
+
+#one p{
+    font-size: 12.5px;
+}
+
+
+#two{
+    width: 500px;
+    height: auto;
+    text-align: center;
+}
+
+#two p{
+    font-size: 12.5px;
+    width: 381px;
+    padding-left: 10px;
+    padding-right: 10px;
+    background-color: hsl(248, 32%, 49%);
+    padding-top: 6px;
+    padding-bottom: 6px;
+    border-radius: 4px;
+}
+
+#two form{
+    width: 400px;
+    height: auto;
+    background-color: #fff;
+    text-align: center;
+    border-radius: 4px;
+    padding-top: 13px;
+}
+
+#two form input{
+    display: block;
+    width: 350px;
+    margin-top: 33px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Poppins";
+    font-size: 11px;
+}
+
+#two button{
+    width: 350px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    background-color: hsl(154, 59%, 51%);
+    border-style: none;
+    border-radius: 4px;
+    font-size: 11px;
+    color: #fff;
+
+}
+
+#two form #bottom-p{
+    font-size: 6px;
+    color:  hsl(246, 25%, 77%);
+    background-color: #fff;
+}
+
+#two form #bottom-p a{
+    text-decoration: none;
+    color: hsl(0, 100%, 55%);
+}
+
+
+@media(max-width: 675px){
+    body{
+    
+        font-family: "Poppins";
+    }
+
+    #bg{
+        width: 100%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #semi-bg{
+        width: 100%;
+        height: auto;
+        background-color: hsl(0, 100%, 74%, 0.7);
+        display: flex;
+        flex-direction: row;
+    }
+
+    #one{
+        width: 350px;
+        height: 220px;
+        margin-top: 80px;
+        margin-left: 25px;
+        
+    }
+    
+    #one h1{
+        font-size: 18px;
+        line-height: 1;
+    
+    }
+    
+    #one p{
+        font-size: 6.5px;
+    }
+    
+    
+    #two{
+        width: 500px;
+        height: auto;
+        text-align: center;
+    }
+    
+    #two p{
+        font-size: 5.5px;
+        width: 230px;
+        padding-left: 10px;
+        padding-right: 10px;
+        background-color: hsl(248, 32%, 49%);
+        padding-top: 6px;
+        padding-bottom: 6px;
+        border-radius: 4px;
+    }
+    
+    #two form{
+        width: 250px;
+        height: auto;
+        background-color: #fff;
+        text-align: center;
+        border-radius: 4px;
+        padding-top: 3px;
+    }
+    
+    #two form input{
+        display: block;
+        width: 150px;
+        margin-top: 23px;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        font-family: "Poppins";
+        font-size: 7px;
+    }
+    
+    #two button{
+        width: 230px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-top: 35px;
+        margin-bottom: 25px;
+        background-color: hsl(154, 59%, 51%);
+        border-style: none;
+        border-radius: 4px;
+        font-size: 7px;
+        color: #fff;
+    
+    }
+    
+    #two form #bottom-p{
+        font-size: 6px;
+        color:  hsl(246, 25%, 77%);
+        background-color: #fff;
+    }
+    
+    #two form #bottom-p a{
+        text-decoration: none;
+        color: hsl(0, 100%, 55%);
+    }
+
+  }
+
+
+
+
+
+
